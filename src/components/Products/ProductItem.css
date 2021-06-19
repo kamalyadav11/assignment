@@ -1,0 +1,48 @@
+.products {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1rem;
+	padding: 1rem;
+}
+
+.empty {
+	display: block;
+}
+
+.product-info {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	border: 1px solid gainsboro;
+	padding: 0.5rem;
+}
+
+.product-image {
+	margin-top: 10px;
+}
+
+.product-image__img {
+	width: 100px;
+	height: 100px;
+}
+
+.product-price {
+	font-weight: bold;
+}
+
+.product-desc {
+	font-size: 0.8rem;
+}
+
+.loader-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+	.products {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}

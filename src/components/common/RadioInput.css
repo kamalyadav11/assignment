@@ -1,0 +1,9 @@
+.radio-container {
+	padding: 0 25px;
+}
+
+@media screen and (max-width: 480px) {
+	.radio-container {
+		padding: 10px 5px;
+	}
+}

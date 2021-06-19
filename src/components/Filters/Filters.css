@@ -1,0 +1,7 @@
+.filters {
+	display: flex;
+	justify-content: space-evenly;
+	/* width: 62%; */
+	align-items: center;
+	background: aliceblue;
+}

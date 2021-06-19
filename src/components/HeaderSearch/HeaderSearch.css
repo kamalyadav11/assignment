@@ -1,0 +1,25 @@
+.header-search {
+	height: 3rem;
+	background: deepskyblue;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+.input-search {
+	width: 300px;
+	/* border-radius: 6px; */
+	border: none;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+button {
+	background: #1068bf;
+	border: none;
+	border-radius: 3px;
+	width: 8rem;
+	font-size: 1rem;
+	font-weight: bold;
+	color: white;
+}
